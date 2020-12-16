@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "server": {
+        "name": "dev",
+        "host": "0.0.0.0",
+        "port": 8081,
+        "showErrorStack": false
+    },
+    "redis": {
+        "use": false,
+        "auth": true,
+        "ssl": false,
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": "pikaboo",
+        "tls": {
+            "key": null,
+            "cert": null,
+            "ca": null
+        }
+    },
+    "cron": {
+        "startAt": "0 0 17 * *"
+    }
+}
