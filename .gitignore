@@ -645,3 +645,4 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,webstorm+iml,webstorm+all,vscode,visualstudio,openframeworks+visualstudio
+/config/local.json
